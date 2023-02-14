@@ -4,7 +4,7 @@ namespace MongoDbTest
 {
     public class MongoDbConnection : IAsyncLifetime
     {
-        private const string MongoConnectionString = "mongodb://127.0.0.1:27018";
+        private const string MongoConnectionString = "mongodb://127.0.0.1:27017";
 
         public MongoDbConnection()
         {
